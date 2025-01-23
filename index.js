@@ -52,7 +52,7 @@ client.on("interactionCreate", require('./events/gerenciar').execute);
 client.on("interactionCreate", require('./events/ticket').execute);
 client.on("interactionCreate", require('./events/button').execute);
 
-const { token } = require("./config.json")
+const { token } = require("./config.js")
 client.login(token)
 
 const axios = require("axios")
