@@ -5,7 +5,7 @@ const db = new JsonDatabase({ databasePath: "./json/geral.json" })
 const db2 = new JsonDatabase({ databasePath: "./json/ass.json" })
 const db3 = new JsonDatabase({ databasePath: "./json/vazio.json" })
 const db4 = new JsonDatabase({ databasePath: "./json/logs.json" })
-const { owner } = require("../config.json")
+const { owner } = require("../config.js")
 const { QuickDB } = require("quick.db")
 const db1 = new QuickDB()
 
@@ -1270,7 +1270,7 @@ module.exports = {
                                         .setDisabled(true)
                                 )
                         ]
-                    })
+                    ])
                 }
             }
 
@@ -1280,4 +1280,3 @@ module.exports = {
 
     }
 }
-
