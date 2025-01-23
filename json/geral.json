@@ -1,0 +1,84 @@
+{
+    "sistema": true,
+    "channel_logs": "1240370021935485020",
+    "channel_feedbacks": "1240370042944884808",
+    "payments": {
+        "sistema": true,
+        "pix": "test@gmail.com",
+        "qrcode": "https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcSh-wrQu254qFaRcoYktJ5QmUhmuUedlbeMaQeaozAVD4lh4ICsGdBNubZ8UlMvWjKC"
+    },
+    "roles": [
+        "1200129581663916143"
+    ],
+    "ticket": [],
+    "ticket_default": [
+        {
+            "type": "Ticket",
+            "description": "Abra um ticket no menu pré definido."
+        }
+    ],
+    "horario": {
+        "sabado": {
+            "aberto": "00:00",
+            "fechado": "23:59"
+        },
+        "segunda": {
+            "aberto": "00:00",
+            "fechado": "23:59"
+        },
+        "terca": {
+            "aberto": "00:00",
+            "fechado": "23:59"
+        },
+        "quarta": {
+            "aberto": "00:00",
+            "fechado": "23:59"
+        },
+        "quinta": {
+            "aberto": "00:00",
+            "fechado": "23:59"
+        },
+        "sexta": {
+            "aberto": "00:00",
+            "fechado": "23:59"
+        },
+        "domingo": {
+            "aberto": "00:00",
+            "fechado": "23:59"
+        }
+    },
+    "embeds": {
+        "titulo": "remover",
+        "desc": "👋 | Aperte no botão abaixo para começar seu atendimento.",
+        "footer": "Preview - Ticket - Todos os direitos reservados.",
+        "banner": "remover",
+        "imagem": "remover",
+        "cor": "Default",
+        "button": {
+            "text": "Criar Ticket",
+            "emoji": "🎫"
+        }
+    },
+    "embed_dentro": {
+        "titulo": "Ticket",
+        "desc": "**Aguarde que algum membro da STAFF venha verificar seu TICKET** \n\n *ID do Ticket:* `#ID` \n\n *Motivo do contato:* `#MOTIVO`\n *Tipo do ticket:* `#TIPO`",
+        "banner": "remover",
+        "imagem": "remover",
+        "cor": "#000000"
+    },
+    "emojis": {
+        "sair": "1218965062761320530",
+        "assumir": "1218967132000354304",
+        "renomear": "1218967168960434187",
+        "notify_member": "1218964993601699970",
+        "addmember": "1218967491942944768",
+        "removemember": "1218967523349889057",
+        "payments": "1218967307360010402",
+        "criarcall": "1218966570458550343",
+        "fechar": "1231408975090683914"
+    },
+    "renomear": {
+        "fechar": "1231408975090683914"
+    },
+    "24hrs": false
+}
